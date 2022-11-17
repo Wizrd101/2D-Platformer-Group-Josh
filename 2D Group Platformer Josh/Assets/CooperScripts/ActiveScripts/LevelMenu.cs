@@ -37,6 +37,10 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level 4");
     }
+    public void LoadLevelFive()
+    {
+        SceneManager.LoadScene("Level 5");
+    }
     public void LoadHowToPlay()
     {
         SceneManager.LoadScene("HowToPlay");
