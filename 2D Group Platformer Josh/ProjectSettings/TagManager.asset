@@ -8,6 +8,7 @@ TagManager:
   - DamageTag
   - SpeedPowerUp
   - JumpPowerUp
+  - WeaponPieces
   layers:
   - Default
   - TransparentFX
