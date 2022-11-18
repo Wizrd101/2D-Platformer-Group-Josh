@@ -6,6 +6,8 @@ public class PlatformerMovement : MonoBehaviour
 {
     public float moveSpeed = 1.0f;
     public float jumpSpeed = 1.0f;
+    public float speedBuffAmount;
+    public float jumpBuffAmount; 
     public static bool grounded = false;
     Rigidbody2D rb;
     Animator animator;
@@ -61,5 +63,18 @@ public class PlatformerMovement : MonoBehaviour
                 grounded = false;
             }
         }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "SpeedPowerUp")
+        {
+            moveSpeed += speedBuffAmount;
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "JumpPowerUp")
+        {
+            jumpSpeed += jumpBuffAmount;
+            Destroy(collision.gameObject);
+        }
     }
+}
 

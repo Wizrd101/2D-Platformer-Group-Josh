@@ -21,6 +21,9 @@ public class PlayerHitStun : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag)
+        if (collision.gameObject.tag == "DamageTag")
+        {
+            rb.AddForce(new Vector2(knockbackAmount, 10));
+        }
     }
 }
