@@ -7,7 +7,9 @@ public class PlatformerMovement : MonoBehaviour
     public float moveSpeed = 1.0f;
     public float jumpSpeed = 1.0f;
     public float speedBuffAmount;
-    public float jumpBuffAmount; 
+    public float jumpBuffAmount;
+    public int startingPieces;
+    public int piecesNeeded;
     public static bool grounded = false;
     Rigidbody2D rb;
     Animator animator;
@@ -74,6 +76,15 @@ public class PlatformerMovement : MonoBehaviour
         {
             jumpSpeed += jumpBuffAmount;
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "WeaponPieces")
+        {
+            startingPieces++;
+            Destroy(collision.gameObject);
+            if (startingPieces >= piecesNeeded)
+            {
+                
+            }
         }
     }
 }
