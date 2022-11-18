@@ -83,7 +83,7 @@ public class PlatformerMovement : MonoBehaviour
             Destroy(collision.gameObject);
             if (startingPieces >= piecesNeeded)
             {
-                
+                startingPieces -= piecesNeeded;
             }
         }
     }

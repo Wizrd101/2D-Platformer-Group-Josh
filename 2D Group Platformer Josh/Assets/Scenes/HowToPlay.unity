@@ -634,7 +634,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Put the Instuctions here (IDK what they are)
+  m_text: 'Enter the haunted mansion to save the ghosts!
+
+    Move with WASD, space
+    bar to jump.
+
+    Left click to fire your weapon.
+
+    Good Luck!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
