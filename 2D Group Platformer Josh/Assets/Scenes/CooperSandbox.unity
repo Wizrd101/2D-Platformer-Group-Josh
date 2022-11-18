@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c19a99086a6e164f898b30f1c8426e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackAmount: 10000
+  knockbackAmount: 10
 --- !u!114 &655413974
 MonoBehaviour:
   m_ObjectHideFlags: 0
