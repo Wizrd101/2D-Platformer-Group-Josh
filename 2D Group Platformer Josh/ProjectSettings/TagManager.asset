@@ -9,14 +9,16 @@ TagManager:
   - SpeedPowerUp
   - JumpPowerUp
   - WeaponPieces
+  - GhostCage
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - PlayerBullet
   - 
   - 
   - 
