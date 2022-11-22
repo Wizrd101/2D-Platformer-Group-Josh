@@ -1125,6 +1125,7 @@ GameObject:
   - component: {fileID: 655413973}
   - component: {fileID: 655413974}
   - component: {fileID: 655413975}
+  - component: {fileID: 655413976}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -1265,6 +1266,10 @@ MonoBehaviour:
   jumpBuffAmount: 1
   startingPieces: 0
   piecesNeeded: 2
+  knockbackAmount: 6
+  KBCounter: 0
+  KBTotalTime: 0.2
+  KFRight: 0
 --- !u!70 &655413971
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1343,6 +1348,18 @@ MonoBehaviour:
   bulletLifeTime: 1
   shootSound: {fileID: 0}
   shootDelay: 0.4
+--- !u!114 &655413976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655413965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975c0d4e8f5a2ec45bdd042ae48a832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &701825235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,6 +1371,8 @@ GameObject:
   - component: {fileID: 701825237}
   - component: {fileID: 701825236}
   - component: {fileID: 701825238}
+  - component: {fileID: 701825239}
+  - component: {fileID: 701825240}
   m_Layer: 0
   m_Name: Spike
   m_TagString: DamageTag
@@ -1421,7 +1440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701825235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.53, y: -2.72, z: 0}
+  m_LocalPosition: {x: 9.53, y: 1.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1456,6 +1475,30 @@ PolygonCollider2D:
     - - {x: 0, y: 0.5773587}
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
+--- !u!114 &701825239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701825235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19f9be72cc85d54dbcb30d3e262c6c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &701825240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701825235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975c0d4e8f5a2ec45bdd042ae48a832e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &722296521
 GameObject:
   m_ObjectHideFlags: 0

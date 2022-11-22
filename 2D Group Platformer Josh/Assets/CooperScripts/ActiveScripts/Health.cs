@@ -31,6 +31,11 @@ public class Health : MonoBehaviour
         string otherTag = collision.gameObject.tag;
         if (otherTag == "DamageTag")
         {
+            PlatformerMovement.knockbackCounter = PlatformerMovement.knockbackTotalTime;
+            if (collision.transform.position.x <= transform.position.x)
+            {
+                PlatformerMovement.knockFromRight = true;
+            }
             health -= 2;
             slider.value = health;
             if (health <= 0)
