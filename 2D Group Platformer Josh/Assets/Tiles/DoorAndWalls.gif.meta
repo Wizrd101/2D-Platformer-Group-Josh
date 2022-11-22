@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89a722eaa5dccd74189be058c974c891
+guid: 9a1a83d5125ebbb41b0fa9c8b6ee6f68
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LitTilesGround_0
+      name: DoorAndWalls_0
       rect:
         serializedVersion: 2
         x: 0
@@ -116,21 +116,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ceb3b5a1db5fe499bad5a8d0bfb64c
-      internalID: 333354214
+      spriteID: 4fd2b8bd0b9eb934186fc6bf11192498
+      internalID: -563722736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LitTilesGround_1
+      name: DoorAndWalls_1
       rect:
         serializedVersion: 2
         x: 32
@@ -142,20 +138,70 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 16, y: 13}
+      - - {x: 13, y: 16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
       bones: []
-      spriteID: 890b619258df67d4da927501d6eb16dc
-      internalID: -567914551
+      spriteID: 1042dce128bb8a14d8ab78cb1686094f
+      internalID: 1545962007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LitTilesGround_2
+      name: DoorAndWalls_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -13, y: -16}
+        - {x: -13, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ce56c2b863b143a2811eebbc83f33
+      internalID: -213713547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorAndWalls_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: 16}
+        - {x: 13, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d6befe69ae25348ae3542403086d15
+      internalID: -2075616197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorAndWalls_4
       rect:
         serializedVersion: 2
         x: 0
@@ -166,21 +212,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d7370b6fc3ec5a41a2e8e8c1b51deef
-      internalID: -571519363
+      spriteID: b42121f864107a4409c20def2c56ceb9
+      internalID: 1093279075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LitTilesGround_3
+      name: DoorAndWalls_5
       rect:
         serializedVersion: 2
         x: 32
@@ -193,13 +235,34 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
+        - {x: -16, y: 0}
+        - {x: -13, y: 0}
+        - {x: -13, y: 16}
       tessellationDetail: 0
       bones: []
-      spriteID: a9ac3098ac397bd45a44518d52c81c7a
-      internalID: -683018404
+      spriteID: d068a5cd7693d9f408cd84e1e2aa0170
+      internalID: 1284714448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorAndWalls_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c06d034f7c7b44b83af49e3014c9d5
+      internalID: 406720715
       vertices: []
       indices: 
       edges: []
@@ -215,10 +278,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LitTilesGround_0: 333354214
-      LitTilesGround_1: -567914551
-      LitTilesGround_3: -683018404
-      LitTilesGround_2: -571519363
+      DoorAndWalls_2: -213713547
+      DoorAndWalls_4: 1093279075
+      DoorAndWalls_1: 1545962007
+      DoorAndWalls_0: -563722736
+      DoorAndWalls_3: -2075616197
+      DoorAndWalls_6: 406720715
+      DoorAndWalls_5: 1284714448
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
