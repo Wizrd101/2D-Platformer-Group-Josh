@@ -6,7 +6,8 @@ using UnityEngine.UI;
 using TMPro;
 public class Health : MonoBehaviour
 {
-    public int health = 10;
+    public static int health = 10;
+    public int healthInput;
     public Slider slider;
     //public int maxHealth = 10;
     public TextMeshProUGUI healthText;
@@ -17,6 +18,7 @@ public class Health : MonoBehaviour
     //public AudioClip potionDrink;
     void Start()
     {
+        health = healthInput;
         slider.maxValue = health;
         slider.value = health;
     }
@@ -31,6 +33,15 @@ public class Health : MonoBehaviour
         string otherTag = collision.gameObject.tag;
         if (otherTag == "DamageTag")
         {
+            PlatformerMovement.knockbackCounter = PlatformerMovement.knockbackTotalTime;
+            if (collision.transform.position.x <= transform.position.x)
+            {
+                PlatformerMovement.knockFromRight = true;
+            }
+            if (collision.transform.position.x > transform.position.x)
+            {
+                PlatformerMovement.knockFromRight = false;
+            }
             health -= 2;
             slider.value = health;
             if (health <= 0)

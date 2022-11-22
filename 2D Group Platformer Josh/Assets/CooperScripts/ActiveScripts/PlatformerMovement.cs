@@ -11,12 +11,22 @@ public class PlatformerMovement : MonoBehaviour
     public int startingPieces;
     public int piecesNeeded;
     public static bool grounded = false;
+    public float knockbackAmount;
+    public static float knockbackCounter;
+    public static float knockbackTotalTime;
+    public static bool knockFromRight;
+    public float KBCounter;
+    public float KBTotalTime;
+    public bool KFRight;
     Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        knockFromRight = KFRight;
+        knockbackCounter = KBCounter;
+        knockbackTotalTime = KBTotalTime;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -28,8 +38,26 @@ public class PlatformerMovement : MonoBehaviour
         float xInput = Input.GetAxis("Horizontal");
 
         Vector2 velocity = rb.velocity;
-        velocity.x = xInput * moveSpeed;
-        rb.velocity = velocity;
+        if (knockbackCounter <= 0)
+        {
+            velocity.x = xInput * moveSpeed;
+            rb.velocity = velocity;
+        }
+        else
+        {
+            if (knockFromRight == true)
+            {
+                //velocity.x = xInput * moveSpeed;
+                rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
+            }
+            if (knockFromRight == false) 
+            {
+                //velocity.x = xInput * moveSpeed;
+                rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
+            }
+            knockbackCounter -= Time.deltaTime;
+        }
+        
         if (Input.GetButtonDown("Jump") && grounded == true)
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
