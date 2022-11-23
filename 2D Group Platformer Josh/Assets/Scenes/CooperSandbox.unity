@@ -3995,5 +3995,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9116259488727795250, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
+      propertyPath: m_Size.x
+      value: 0.38248295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116259488727795250, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.022539608
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
