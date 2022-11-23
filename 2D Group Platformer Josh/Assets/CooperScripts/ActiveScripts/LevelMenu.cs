@@ -23,23 +23,59 @@ public class LevelMenu : MonoBehaviour
     }
     public void LoadLevelOne()
     {
-        SceneManager.LoadScene("Level 1");
+        if (HardMode.isHard == false)
+        {
+            SceneManager.LoadScene("LevelOneScene");
+        }
+        else if (HardMode.isHard == true)
+        {
+
+        }
     }
+        
     public void LoadLevelTwo()
     {
-        SceneManager.LoadScene("Level 2");
+        if (HardMode.isHard == false)
+        {
+            SceneManager.LoadScene("Level 2");
+        }
+        else if (HardMode.isHard == true)
+        {
+
+        }
     }
     public void LoadLevelThree()
     {
-        SceneManager.LoadScene("Level 3");
-    }
+        if (HardMode.isHard == false)
+        {
+            SceneManager.LoadScene("Level 3");
+        }
+        else if (HardMode.isHard == true)
+        {
+
+        }
+    }       
     public void LoadLevelFour()
     {
-        SceneManager.LoadScene("Level 4");
+        if (HardMode.isHard == false)
+        {
+            SceneManager.LoadScene("Level 4");
+        }
+        else if (HardMode.isHard == true)
+        {
+
+        }
     }
     public void LoadLevelFive()
     {
-        SceneManager.LoadScene("Level 5");
+        if (HardMode.isHard == false)
+        {
+            SceneManager.LoadScene("Level 5");
+        }
+        else if (HardMode.isHard == true)
+        {
+
+        }
     }
     public void LoadHowToPlay()
     {
