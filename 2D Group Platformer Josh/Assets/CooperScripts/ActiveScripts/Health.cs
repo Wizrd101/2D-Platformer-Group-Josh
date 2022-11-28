@@ -31,7 +31,25 @@ public class Health : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "DamageTag")
+        if (otherTag == "DamageTag" && HardMode.isHard == true)
+        {
+            PlatformerMovement.knockbackCounter = PlatformerMovement.knockbackTotalTime;
+            if (collision.transform.position.x <= transform.position.x)
+            {
+                PlatformerMovement.knockFromRight = true;
+            }
+            if (collision.transform.position.x > transform.position.x)
+            {
+                PlatformerMovement.knockFromRight = false;
+            }
+            health -= 4;
+            slider.value = health;
+            if (health <= 0)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
+        }
+        else if (otherTag == "DamageTag")
         {
             PlatformerMovement.knockbackCounter = PlatformerMovement.knockbackTotalTime;
             if (collision.transform.position.x <= transform.position.x)

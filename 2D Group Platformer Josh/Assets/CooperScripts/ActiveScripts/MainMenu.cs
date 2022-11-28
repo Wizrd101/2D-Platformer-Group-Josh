@@ -23,6 +23,6 @@ public class MainMenu : MonoBehaviour
     }
     public void LoadLevelSelect()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("Level Select");
     }
 }
