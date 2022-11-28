@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Select.unity
     guid: 09a5d2049a1d2a14186a1f78f81c31a9
+  - enabled: 1
+    path: Assets/Scenes/HardMode.unity
+    guid: c5995e8c7d8604849b7af68248ae2548
   m_configObjects: {}

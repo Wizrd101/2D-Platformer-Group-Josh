@@ -23,14 +23,7 @@ public class LevelMenu : MonoBehaviour
     }
     public void LoadLevelOne()
     {
-        if (HardMode.isHard == false)
-        {
-            SceneManager.LoadScene("LevelOneScene");
-        }
-        else if (HardMode.isHard == true)
-        {
-
-        }
+         SceneManager.LoadScene("LevelOneScene");
     }
         
     public void LoadLevelTwo()
