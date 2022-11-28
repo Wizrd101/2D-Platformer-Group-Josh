@@ -6,19 +6,18 @@ using UnityEngine.UI;
 using TMPro;
 public class Health : MonoBehaviour
 {
-    public static int health = 10;
-    public int healthInput;
+    public int health = 10;
     public Slider slider;
     //public int maxHealth = 10;
     public TextMeshProUGUI healthText;
     //public int healing = 4;
     // name of the lose screen
     public string sceneName;
+    public static bool isDead = false;
     // Start is called before the first frame update
     //public AudioClip potionDrink;
     void Start()
     {
-        health = healthInput;
         slider.maxValue = health;
         slider.value = health;
     }
@@ -47,6 +46,7 @@ public class Health : MonoBehaviour
             if (health <= 0)
             {
                 SceneManager.LoadScene(sceneName);
+                isDead = true;
             }
         }
         else if (otherTag == "DamageTag")
@@ -65,6 +65,8 @@ public class Health : MonoBehaviour
             if (health <= 0)
             {
                 SceneManager.LoadScene(sceneName);
+                isDead = true;
+
             }
         }
         else if (otherTag == "OutOfBounds")

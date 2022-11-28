@@ -7,6 +7,7 @@ public class IFrames : MonoBehaviour
     Renderer renderer;
     Color color;
     public float iFramesLength;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class IFrames : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "DamageTag" && Health.health > 0)
+        if (collision.gameObject.tag == "DamageTag" && Health.isDead == false)
         {
             StartCoroutine("GetInvulnerable");
         }
