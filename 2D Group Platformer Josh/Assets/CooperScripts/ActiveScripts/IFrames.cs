@@ -28,7 +28,7 @@ public class IFrames : MonoBehaviour
     }
     IEnumerator GetInvulnerable()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.01f);
         Physics2D.IgnoreLayerCollision(3, 7, true);
         color.a = 0.5f;
         renderer.material.color = color;
