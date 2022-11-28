@@ -19,9 +19,11 @@ public class HardMode : MonoBehaviour
     public void EnableHardMode()
     {
         isHard = true;
+        Debug.Log("Hard Mode Active");
     }
     public void DisableHardMode()
     {
-        isHard = false; 
+        isHard = false;
+        Debug.Log("Hard Mode Disabled");
     }
 }
