@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9881e3949abd5e544aaf45bab82ae39b
+guid: 4668fef1fa71c264b8d68c98a0f408cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,85 +105,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DefaultFireAnimation_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a34842a87571faa4e99283f628963944
-      internalID: 1281799537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DefaultFireAnimation_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 109b9042e6ed20f46b8db13e2fd2ec2c
-      internalID: -2097389681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DefaultFireAnimation_2
+      name: Bullet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3ed521ae8e4a440b346f50066fd7a6
-      internalID: -391126798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DefaultFireAnimation_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19d46c29cfc367a498828284881915f5
-      internalID: 915573724
+      spriteID: f1158f727e09f2240aedef656a1cc4d7
+      internalID: 1573910866
       vertices: []
       indices: 
       edges: []
@@ -199,10 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DefaultFireAnimation_2: -391126798
-      DefaultFireAnimation_3: 915573724
-      DefaultFireAnimation_0: 1281799537
-      DefaultFireAnimation_1: -2097389681
+      Bullet_0: 1573910866
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
