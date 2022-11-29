@@ -35,4 +35,8 @@ public class WinMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void HardMode()
+    {
+        SceneManager.LoadScene("HardMode");
+    }
 }

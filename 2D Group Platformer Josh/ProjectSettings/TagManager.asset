@@ -11,6 +11,7 @@ TagManager:
   - WeaponPieces
   - GhostCage
   - PlayerBullet
+  - OutOfBounds
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Water
   - UI
   - PlayerBullet
-  - 
+  - Enemy
   - 
   - 
   - 
