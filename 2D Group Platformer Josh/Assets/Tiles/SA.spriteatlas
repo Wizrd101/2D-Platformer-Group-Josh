@@ -188,6 +188,8 @@ SpriteAtlas:
   - {fileID: 333354214, guid: 89a722eaa5dccd74189be058c974c891, type: 3}
   - {fileID: -683018404, guid: 89a722eaa5dccd74189be058c974c891, type: 3}
   - {fileID: -571519363, guid: 89a722eaa5dccd74189be058c974c891, type: 3}
+  - {fileID: 1099741026, guid: fca4097cb92ceaf4b9301c3bfbcb1d95, type: 3}
+  - {fileID: -1097991612, guid: fca4097cb92ceaf4b9301c3bfbcb1d95, type: 3}
   - {fileID: -2100059689, guid: 68d26e8cb579f4d489ed6427d167a210, type: 3}
   - {fileID: 1752453991, guid: 68d26e8cb579f4d489ed6427d167a210, type: 3}
   - {fileID: -1110264004, guid: 68d26e8cb579f4d489ed6427d167a210, type: 3}
@@ -210,6 +212,7 @@ SpriteAtlas:
   - {fileID: 2066042985, guid: 27003d4d31b0c2243a747332324e6ddc, type: 3}
   - {fileID: 1756652147, guid: 27003d4d31b0c2243a747332324e6ddc, type: 3}
   - {fileID: 21300000, guid: e3ae62ad82735bc4b8c2a00fb25506a3, type: 3}
+  - {fileID: 21300000, guid: 8ea1d26f4b7b7ad40a5539fda746fc7a, type: 3}
   m_PackedSpriteNamesToIndex:
   - Pillars (Upgraded1)_21
   - Pillars (Upgraded1)_20
@@ -335,6 +338,8 @@ SpriteAtlas:
   - LitTilesGround_0
   - LitTilesGround_3
   - LitTilesGround_2
+  - 45To30Rooftips_1
+  - 45To30Rooftips_0
   - HauntedHouseTiles_14
   - HauntedHouseTiles_13
   - HauntedHouseTiles_12
@@ -357,6 +362,7 @@ SpriteAtlas:
   - 45Roofs_4
   - 45Roofs_5
   - SpikesTile
+  - RoofPeakTile
   m_RenderDataMap: {}
   m_Tag: SA
   m_IsVariant: 0
