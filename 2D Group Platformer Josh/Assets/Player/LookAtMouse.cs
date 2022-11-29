@@ -24,6 +24,8 @@ public class LookAtMouse : MonoBehaviour
         {
             spriteRenderer.flipX = true;
 
+            transform.rotation = Quaternion.AngleAxis(angle + 180, Vector3.forward);
+
         }
         else if (!playerSpriteRenderer.flipX)
         {
