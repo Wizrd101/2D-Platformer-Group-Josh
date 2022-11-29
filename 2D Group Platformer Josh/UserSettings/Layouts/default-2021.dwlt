@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 959
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 25
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 26
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 27
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,7 +310,7 @@ MonoBehaviour:
     m_CachedPref: 50
     m_ControlHash: 1964396721
     m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 3068553989162500681, guid: 26a3f77ca2831b74eb591722bde747f7, type: 3}
+  m_Palette: {fileID: 1273159408212352308, guid: a78e80caaa9874342854cb0230c2a4a0, type: 3}
   m_DrawGridGizmo: 1
   m_DrawGizmos: 0
 --- !u!114 &13
@@ -335,7 +335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 362
     y: 111
-    width: 1099
+    width: 732
     height: 517
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -343,11 +343,11 @@ MonoBehaviour:
     m_SaveData: []
   m_ShowAlpha: 0
   m_MipLevel: 0
-  m_Zoom: 13.5
-  m_ScrollPosition: {x: 0, y: 0}
+  m_Zoom: 3.375
+  m_ScrollPosition: {x: 142.8561, y: -119.19972}
   m_SelectedObject: {fileID: 0}
-  m_SelectedSpriteRectGUID: 514c53a41aed7814b89cb4bad2cf0085
-  m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpritePhysicsShapeModule
+  m_SelectedSpriteRectGUID: 657343353e5989648a3b008148c3cf35
+  m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteFrameModule
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,13 +389,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/CooperScripts/ActiveScripts
+    - Assets/Tiles
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/CooperScripts/ActiveScripts
+  - Assets/Tiles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Simon Henderson\2D-Platformer-Group-Josh\2D Group Platformer
     Josh
@@ -403,9 +403,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e650000
-    m_LastClickedID: 25966
-    m_ExpandedIDs: 00000000de620000e062000000ca9a3b
+    m_SelectedIDs: 60640000
+    m_LastClickedID: 25696
+    m_ExpandedIDs: 00000000226400005664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de620000e0620000
+    m_ExpandedIDs: 0000000022640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e070000
-      m_LastClickedID: 0
-      m_ExpandedIDs: f6d1ffff0efaffffc2610000
+      m_SelectedIDs: 96610000
+      m_LastClickedID: 24982
+      m_ExpandedIDs: 16faffff14620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -834,9 +834,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.558747, y: -1.0506392, z: 0.0676759}
+    m_Target: {x: -28.656332, y: -1.8569607, z: 0.067449}
     speed: 2
-    m_Value: {x: -9.558747, y: -1.0506392, z: 0.0676759}
+    m_Value: {x: -28.656332, y: -1.8569607, z: 0.067449}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -887,9 +887,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.017106
+    m_Target: 3.0397992
     speed: 2
-    m_Value: 3.017106
+    m_Value: 3.0397992
   m_Ortho:
     m_Target: 1
     speed: 2
