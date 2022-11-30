@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17f2874aac347594993836e70b928f15
+guid: 65f7b460f49af1f4ca821275f8661fab
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,85 +105,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_0
+      name: GiuseppeRunAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024526f77475504cbb37c4643ef3ec6
+      internalID: -1765586170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeRunAnim_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac5b40d955245c47b9b8662c3d1fad2
+      internalID: 1581663702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeRunAnim_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1339753b464decb41bc0cdef847bd628
+      internalID: 1394172460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeRunAnim_3
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4421b232cc8bc843812d368bd244933
-      internalID: -1914011878
+      spriteID: dd204ff795e28ff43b24d94c3dcbeb37
+      internalID: -1900121372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_1
+      name: GiuseppeRunAnim_4
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e1cb36d9d3f474d85fabba759ec047
-      internalID: 1171926439
+      spriteID: 8c5d19f3914f51c489747039fa1ba6c1
+      internalID: 508890126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_2
+      name: GiuseppeRunAnim_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc9feecbcae0d946a53c83ad4e789f7
+      internalID: -2027016442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeRunAnim_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69832b57bbdfeee48b7da89d5dd1eee9
-      internalID: 1943407696
+      spriteID: 610119dc38fc9cc48886e08bf544d49a
+      internalID: 625561058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_3
+      name: GiuseppeRunAnim_7
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3183e7b9c85348847886280517cf6e44
-      internalID: -290121175
+      spriteID: e97d1da002a124743b6f12b880713fc0
+      internalID: 246773041
       vertices: []
       indices: 
       edges: []
@@ -199,10 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ExtendedMagFireAnim_1: 1171926439
-      ExtendedMagFireAnim_0: -1914011878
-      ExtendedMagFireAnim_3: -290121175
-      ExtendedMagFireAnim_2: 1943407696
+      GiuseppeRunAnim_3: -1900121372
+      GiuseppeRunAnim_6: 625561058
+      GiuseppeRunAnim_0: -1765586170
+      GiuseppeRunAnim_4: 508890126
+      GiuseppeRunAnim_1: 1581663702
+      GiuseppeRunAnim_5: -2027016442
+      GiuseppeRunAnim_7: 246773041
+      GiuseppeRunAnim_2: 1394172460
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

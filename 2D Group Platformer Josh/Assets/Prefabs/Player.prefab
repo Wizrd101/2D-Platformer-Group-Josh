@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9116259488564115364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.042429008, y: -0.66, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100,11 +100,11 @@ GameObject:
   - component: {fileID: 9116259488727795246}
   - component: {fileID: 9116259488727795241}
   - component: {fileID: 9116259488727795243}
-  - component: {fileID: 9116259488727795242}
   - component: {fileID: 9116259488727795237}
   - component: {fileID: 9116259488727795236}
   - component: {fileID: 9116259488727795239}
   - component: {fileID: -112565219258909513}
+  - component: {fileID: 4068927004925576333}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0fc854adb85ad143a9fbeb03f699452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthInput: 10
+  health: 10
   slider: {fileID: 0}
   healthText: {fileID: 0}
   sceneName: CooperSandbox
@@ -297,23 +297,6 @@ MonoBehaviour:
   ghostsNeeded: 1
   coinText: {fileID: 0}
   sceneName: 
---- !u!114 &9116259488727795242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9116259488727795248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
-  speed: 10
-  bulletLifeTime: 1
-  shootSound: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
-  shootDelay: 0.4
 --- !u!114 &9116259488727795237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,3 +438,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4068927004925576333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116259488727795248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154087abc532c8640aa4f3db887f77f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
