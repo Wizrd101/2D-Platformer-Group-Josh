@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17f2874aac347594993836e70b928f15
+guid: 8948349225f07624db28a2cdb4e62232
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,85 +105,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_0
+      name: GiuseppeIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606c585b4106a464ba2739227075a2ac
+      internalID: -1738720414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeIdle_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da28ff306854c054cb16b0182d6df5de
+      internalID: 726559713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeIdle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62fc4dec1ea8b84a94c3caddb7213e2
+      internalID: -387965144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeIdle_3
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4421b232cc8bc843812d368bd244933
-      internalID: -1914011878
+      spriteID: c61c5ab174686254fbfe29275cd0a726
+      internalID: 343762437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_1
+      name: GiuseppeIdle_4
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e1cb36d9d3f474d85fabba759ec047
-      internalID: 1171926439
+      spriteID: 6709d3a741c541e47b007aac1e3741a5
+      internalID: -687522768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_2
+      name: GiuseppeIdle_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ee3e8cc81d7e849ae3c4eeb7cef55a
+      internalID: 308320722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeIdle_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69832b57bbdfeee48b7da89d5dd1eee9
-      internalID: 1943407696
+      spriteID: bff44fdeb4cc1b7458cc7ef706cedd05
+      internalID: -1173001971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_3
+      name: GiuseppeIdle_7
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3183e7b9c85348847886280517cf6e44
-      internalID: -290121175
+      spriteID: 2cc4630699aa0964d88588113f83c1e0
+      internalID: 752546193
       vertices: []
       indices: 
       edges: []
@@ -199,10 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ExtendedMagFireAnim_1: 1171926439
-      ExtendedMagFireAnim_0: -1914011878
-      ExtendedMagFireAnim_3: -290121175
-      ExtendedMagFireAnim_2: 1943407696
+      GiuseppeIdle_6: -1173001971
+      GiuseppeIdle_7: 752546193
+      GiuseppeIdle_1: 726559713
+      GiuseppeIdle_0: -1738720414
+      GiuseppeIdle_5: 308320722
+      GiuseppeIdle_3: 343762437
+      GiuseppeIdle_2: -387965144
+      GiuseppeIdle_4: -687522768
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

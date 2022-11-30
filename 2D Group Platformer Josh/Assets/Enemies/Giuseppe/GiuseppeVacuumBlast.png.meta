@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17f2874aac347594993836e70b928f15
+guid: 2d6425ab729bcf044969b451000cff12
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,85 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_0
+      name: GiuseppeVacuumBlast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38022f60c0ca145a2da29b2d777e23
+      internalID: -882011635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeVacuumBlast_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f747caf965d694089eca86ab57001a
+      internalID: 1919070980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GiuseppeVacuumBlast_2
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4421b232cc8bc843812d368bd244933
-      internalID: -1914011878
+      spriteID: 1a593f1b7c234894a88649a758f6c998
+      internalID: 1139147853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_1
+      name: GiuseppeVacuumBlast_3
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e1cb36d9d3f474d85fabba759ec047
-      internalID: 1171926439
+      spriteID: 0695fe10c17e7bc46ba8419d30e8f4b9
+      internalID: 796353841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_2
+      name: GiuseppeVacuumBlast_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69832b57bbdfeee48b7da89d5dd1eee9
-      internalID: 1943407696
+      spriteID: 078b46bc496a6da459175f4322a28419
+      internalID: 221711855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_3
+      name: GiuseppeVacuumBlast_5
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3183e7b9c85348847886280517cf6e44
-      internalID: -290121175
+      spriteID: 47fdb6950fb76ce44913766b18c96924
+      internalID: -1523021615
       vertices: []
       indices: 
       edges: []
@@ -199,10 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ExtendedMagFireAnim_1: 1171926439
-      ExtendedMagFireAnim_0: -1914011878
-      ExtendedMagFireAnim_3: -290121175
-      ExtendedMagFireAnim_2: 1943407696
+      GiuseppeVacuumBlast_4: 221711855
+      GiuseppeVacuumBlast_5: -1523021615
+      GiuseppeVacuumBlast_0: -882011635
+      GiuseppeVacuumBlast_1: 1919070980
+      GiuseppeVacuumBlast_2: 1139147853
+      GiuseppeVacuumBlast_3: 796353841
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

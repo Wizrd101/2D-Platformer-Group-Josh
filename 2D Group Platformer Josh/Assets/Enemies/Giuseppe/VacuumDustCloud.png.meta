@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17f2874aac347594993836e70b928f15
+guid: b496151286330404db3a5fcec5271d76
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,85 +105,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExtendedMagFireAnim_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4421b232cc8bc843812d368bd244933
-      internalID: -1914011878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExtendedMagFireAnim_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9e1cb36d9d3f474d85fabba759ec047
-      internalID: 1171926439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExtendedMagFireAnim_2
+      name: VacuumDustCloud_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69832b57bbdfeee48b7da89d5dd1eee9
-      internalID: 1943407696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ExtendedMagFireAnim_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3183e7b9c85348847886280517cf6e44
-      internalID: -290121175
+      spriteID: 0cb034d45c7995443a8d08400e4e15b6
+      internalID: -567917286
       vertices: []
       indices: 
       edges: []
@@ -199,10 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ExtendedMagFireAnim_1: 1171926439
-      ExtendedMagFireAnim_0: -1914011878
-      ExtendedMagFireAnim_3: -290121175
-      ExtendedMagFireAnim_2: 1943407696
+      VacuumDustCloud_0: -567917286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
