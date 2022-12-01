@@ -9,10 +9,12 @@ public class PlayerShoot : MonoBehaviour
     public PlayerShoot playerShoot;
     public GameObject bullet;
     public int currentCylinder, maxMagSize = 6, currentReserves, maxReserveSize = 90;
+    private bool reload = false;
     public float speed;
     public float bulletLifeTime = 1.5f;
     public AudioClip shootSound;
     float timer = 0.0f;
+    float reloadTimer = 0.0f;
     public float shootDelay;
     public static bool grounded = false;
     Animator animator;
@@ -33,7 +35,7 @@ public class PlayerShoot : MonoBehaviour
         timer += Time.deltaTime;
         if (Time.timeScale == 1)
         {
-            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && PlatformerMovement.grounded == true && currentCylinder > 0)
+            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && PlatformerMovement.grounded == true && currentCylinder > 0 && reload == false)
             {
                 animator.SetTrigger("Active");
                 GameObject bulletSpawn = Instantiate(bullet, transform.position, Quaternion.identity);
@@ -49,9 +51,18 @@ public class PlayerShoot : MonoBehaviour
                 timer = 0;
             }
 
+            reloadTimer += Time.deltaTime;
+            
             if (Input.GetKeyDown(KeyCode.R))
             {
+                reloadTimer = 2;
                 playerShoot.Reload();
+                reload = true;
+            
+            }
+            if (reloadTimer == 0)
+            {
+                reload = false;
             }
 
             animator.SetFloat("xInput", xInput);
@@ -70,6 +81,10 @@ public class PlayerShoot : MonoBehaviour
 
     public void Reload()
     {
+        if( currentCylinder < maxMagSize)
+        {
+            animator.SetTrigger("reload");
+        }
         int reloadAmount = maxMagSize - currentCylinder;
         reloadAmount = (currentReserves - reloadAmount) >= 0 ? reloadAmount : currentReserves;
         currentCylinder += reloadAmount;
