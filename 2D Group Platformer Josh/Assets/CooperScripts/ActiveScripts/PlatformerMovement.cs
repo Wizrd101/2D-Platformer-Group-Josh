@@ -57,7 +57,7 @@ public class PlatformerMovement : MonoBehaviour
             }
             knockbackCounter -= Time.deltaTime;
         }
-        
+
         if (Input.GetButtonDown("Jump") && grounded == true)
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));

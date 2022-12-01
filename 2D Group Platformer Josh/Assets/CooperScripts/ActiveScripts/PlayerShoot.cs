@@ -55,12 +55,11 @@ public class PlayerShoot : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.R))
             {
-                reloadTimer = 2;
+                reloadTimer = 0;
                 playerShoot.Reload();
                 reload = true;
-            
             }
-            if (reloadTimer == 0)
+            if (reloadTimer >= 2)
             {
                 reload = false;
             }
