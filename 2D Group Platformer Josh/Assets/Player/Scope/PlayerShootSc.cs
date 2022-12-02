@@ -1,12 +1,12 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
 
-public class PlayerShoot : MonoBehaviour
+public class PlayerShootSc : MonoBehaviour
 {
-    public PlayerShoot playerShoot;
+    public PlayerShootSc playerShootSc;
     public GameObject bullet;
     public int currentCylinder, maxMagSize = 6, currentReserves, maxReserveSize = 90;
     private bool reload = false;
@@ -35,7 +35,7 @@ public class PlayerShoot : MonoBehaviour
         timer += Time.deltaTime;
         if (Time.timeScale == 1)
         {
-            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && PlatformerMovement.grounded == true && currentCylinder > 0 && reload == false)
+            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentCylinder > 0 && reload == false)
             {
                 animator.SetTrigger("Active");
                 GameObject bulletSpawn = Instantiate(bullet, transform.position, Quaternion.identity);
@@ -52,11 +52,11 @@ public class PlayerShoot : MonoBehaviour
             }
 
             reloadTimer += Time.deltaTime;
-            
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 reloadTimer = 0;
-                playerShoot.Reload();
+                playerShootSc.Reload();
                 reload = true;
             }
             if (reloadTimer >= 1.25)
@@ -74,13 +74,13 @@ public class PlayerShoot : MonoBehaviour
             {
                 spriteRenderer.flipX = false;
             }
-           
+
         }
     }
 
     public void Reload()
     {
-        if( currentCylinder < maxMagSize)
+        if (currentCylinder < maxMagSize)
         {
             animator.SetTrigger("reload");
         }
@@ -93,7 +93,7 @@ public class PlayerShoot : MonoBehaviour
     public void AddRounds(int roundAmmount)
     {
         currentReserves += roundAmmount;
-        if(currentReserves > maxReserveSize)
+        if (currentReserves > maxReserveSize)
         {
             currentReserves = maxReserveSize;
         }
