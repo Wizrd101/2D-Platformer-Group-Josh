@@ -13,5 +13,5 @@ public class AmmoPickUp : MonoBehaviour
             Destroy(gameObject);
         }
     }
-}
+} 
 

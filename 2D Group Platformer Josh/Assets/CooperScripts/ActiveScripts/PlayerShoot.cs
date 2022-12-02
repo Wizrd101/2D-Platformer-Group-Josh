@@ -59,7 +59,7 @@ public class PlayerShoot : MonoBehaviour
                 playerShoot.Reload();
                 reload = true;
             }
-            if (reloadTimer >= 2)
+            if (reloadTimer >= 1.25)
             {
                 reload = false;
             }
@@ -93,9 +93,9 @@ public class PlayerShoot : MonoBehaviour
     public void AddRounds(int roundAmmount)
     {
         currentReserves += roundAmmount;
-        if(currentReserves > maxMagSize)
+        if(currentReserves > maxReserveSize)
         {
-            currentReserves = maxMagSize;
+            currentReserves = maxReserveSize;
         }
     }
 }
