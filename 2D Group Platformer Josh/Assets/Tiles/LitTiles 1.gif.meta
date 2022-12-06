@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31bcf3268a268254196f843f3d7adda1
+guid: 952f831f09859e34581d25de13e7cdfe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorAndWalls 1_0
+      name: LitTiles 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,20 +113,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c6afc933fb0624aa37ce616d945314
-      internalID: -1520857929
+      spriteID: d5682d2a219d3394bad9f04af9bca96e
+      internalID: -764424789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAndWalls 1_1
+      name: LitTiles 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -134,74 +134,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 13, y: 16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c8dd003d95a1f45bbde04e44ce49c1
-      internalID: -966126794
+      spriteID: ee27c60c6dd9d724abcf055f3a32ca23
+      internalID: -178810991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAndWalls 1_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
-        - {x: -13, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: efff2c66cfcf4f645977c3de53a5b91b
-      internalID: -1150689874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoorAndWalls 1_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 13, y: 16}
-        - {x: 13, y: 0}
-        - {x: 16, y: 0}
-        - {x: 16, y: 16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a1086516e86bbd45b4d2c338437b012
-      internalID: 1498290871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoorAndWalls 1_4
+      name: LitTiles 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -209,24 +155,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbf3c22fd8f18c4783ac2035e68c28e
-      internalID: 235733656
+      spriteID: 106ad47175a696545b4c0d95a2d5d559
+      internalID: 275984593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoorAndWalls 1_5
+      name: LitTiles 1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -234,43 +176,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 16}
-        - {x: -16, y: 1}
-        - {x: -13, y: 1}
-        - {x: -13, y: 16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f50cbb4bbbfee0141a8ad1699f035c25
-      internalID: -1847398100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoorAndWalls 1_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: -16}
-        - {x: -16, y: -16}
-        - {x: -16, y: -16}
-        - {x: -16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49b5d57821544604db35bdfe651398b1
-      internalID: -51981039
+      spriteID: fe1cc54378fbbb442ab363509826788f
+      internalID: -954781577
       vertices: []
       indices: 
       edges: []
@@ -286,13 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DoorAndWalls 1_1: -966126794
-      DoorAndWalls 1_5: -1847398100
-      DoorAndWalls 1_3: 1498290871
-      DoorAndWalls 1_6: -51981039
-      DoorAndWalls 1_2: -1150689874
-      DoorAndWalls 1_4: 235733656
-      DoorAndWalls 1_0: -1520857929
+      LitTiles 1_1: -178810991
+      LitTiles 1_0: -764424789
+      LitTiles 1_3: -954781577
+      LitTiles 1_2: 275984593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
