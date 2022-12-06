@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     //public AudioClip potionDrink;
     void Start()
     {
+        // slider must be set before scene loading will work
         slider.maxValue = health;
         slider.value = health;
     }
@@ -56,7 +57,7 @@ public class Health : MonoBehaviour
             {
                 PlatformerMovement.knockFromRight = true;
             }
-            if (collision.transform.position.x > transform.position.x)
+            else if (collision.transform.position.x > transform.position.x)
             {
                 PlatformerMovement.knockFromRight = false;
             }
