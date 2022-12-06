@@ -56,7 +56,7 @@ public class Health : MonoBehaviour
             {
                 PlatformerMovement.knockFromRight = true;
             }
-            if (collision.transform.position.x > transform.position.x)
+            else if (collision.transform.position.x > transform.position.x)
             {
                 PlatformerMovement.knockFromRight = false;
             }
