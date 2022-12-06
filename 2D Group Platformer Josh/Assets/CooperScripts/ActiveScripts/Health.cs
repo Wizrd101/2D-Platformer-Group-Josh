@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     //public AudioClip potionDrink;
     void Start()
     {
+        // slider must be set before scene loading will work
         slider.maxValue = health;
         slider.value = health;
     }
