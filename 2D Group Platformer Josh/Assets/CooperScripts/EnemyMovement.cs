@@ -12,7 +12,7 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         // Gets player direction 
-        Vector2 playerDirection = player.transform.position - transform.position;
+        Vector3 playerDirection = player.transform.position - transform.position;
         // use vector2 if it only moves left and right, use vector3 if you want it to move in any direction
         float playerDist = playerDirection.magnitude;
         playerDirection.Normalize();
@@ -33,7 +33,7 @@ public class EnemyMovement : MonoBehaviour
         else
         {
 
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
             // use vector2 for left and right, use vector3 for any direction
             GetComponent<Animator>().SetFloat("xInput", 0);
             GetComponent<Animator>().SetFloat("yInput", 0);
