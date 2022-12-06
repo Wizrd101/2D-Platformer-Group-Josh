@@ -22,7 +22,7 @@ public class IFrames : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "DamageTag" && Health.isDead == false)
+        if (collision.gameObject.tag == "DamageTag" )
         {
             StartCoroutine("GetInvulnerable");
         }
