@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 140755223}
   - component: {fileID: 140755225}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Cage
   m_TagString: GhostCage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

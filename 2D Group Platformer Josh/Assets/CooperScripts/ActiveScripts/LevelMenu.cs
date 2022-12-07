@@ -30,7 +30,7 @@ public class LevelMenu : MonoBehaviour
     {
         if (HardMode.isHard == false)
         {
-            SceneManager.LoadScene("Level 2");
+            SceneManager.LoadScene("LevelTwoScene");
         }
         else if (HardMode.isHard == true)
         {
@@ -41,7 +41,7 @@ public class LevelMenu : MonoBehaviour
     {
         if (HardMode.isHard == false)
         {
-            SceneManager.LoadScene("Level 3");
+            SceneManager.LoadScene("LevelThreeScene");
         }
         else if (HardMode.isHard == true)
         {
@@ -52,7 +52,7 @@ public class LevelMenu : MonoBehaviour
     {
         if (HardMode.isHard == false)
         {
-            SceneManager.LoadScene("Level 4");
+            SceneManager.LoadScene("LevelFourScene");
         }
         else if (HardMode.isHard == true)
         {
@@ -63,7 +63,7 @@ public class LevelMenu : MonoBehaviour
     {
         if (HardMode.isHard == false)
         {
-            SceneManager.LoadScene("Level 5");
+            SceneManager.LoadScene("LevelFiveScene");
         }
         else if (HardMode.isHard == true)
         {
