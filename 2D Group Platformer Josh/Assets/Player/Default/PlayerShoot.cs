@@ -53,7 +53,7 @@ public class PlayerShoot : MonoBehaviour
 
             reloadTimer += Time.deltaTime;
             
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.R) && currentCylinder < 6)
             {
                 reloadTimer = 0;
                 playerShoot.Reload();
