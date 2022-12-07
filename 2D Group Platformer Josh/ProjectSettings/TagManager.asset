@@ -12,6 +12,7 @@ TagManager:
   - GhostCage
   - PlayerBullet
   - OutOfBounds
+  - LevelEnd
   layers:
   - Default
   - TransparentFX
