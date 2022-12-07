@@ -39346,6 +39346,19 @@ MonoBehaviour:
   slider: {fileID: 1350464257}
   healthText: {fileID: 0}
   sceneName: LevelOneScene
+--- !u!114 &1777502338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777502327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb2dfc991c9f8644b710ab0ce53b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iFramesLength: 1
 --- !u!1 &1813843194
 GameObject:
   m_ObjectHideFlags: 0
