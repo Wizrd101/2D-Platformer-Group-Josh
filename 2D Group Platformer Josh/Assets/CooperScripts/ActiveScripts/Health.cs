@@ -42,7 +42,7 @@ public class Health : MonoBehaviour
             {
                 PlatformerMovement.knockFromRight = false;
             }
-            health -= 4;
+            health -= 3;
             slider.value = health;
             if (health <= 0)
             {
