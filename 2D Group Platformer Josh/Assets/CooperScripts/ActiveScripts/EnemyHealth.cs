@@ -18,6 +18,10 @@ public class EnemyHealth : MonoBehaviour
     {
         slider.maxValue = health;
         slider.value = health;
+        if (HardMode.isHard == true)
+        {
+            health += 5;
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

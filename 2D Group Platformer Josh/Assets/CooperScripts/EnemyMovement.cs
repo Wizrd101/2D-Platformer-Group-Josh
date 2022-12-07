@@ -8,6 +8,14 @@ public class EnemyMovement : MonoBehaviour
     public float close = 10.0f;
     public float speed = 3.0f;
     bool isPlaying = false;
+    private void Start()
+    {
+        if (HardMode.isHard == true)
+        {
+            close += 3;
+            speed++;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
@@ -16,7 +24,7 @@ public class EnemyMovement : MonoBehaviour
         // use vector2 if it only moves left and right, use vector3 if you want it to move in any direction
         float playerDist = playerDirection.magnitude;
         playerDirection.Normalize();
-        
+     
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (playerDist <= close)
         {
@@ -41,6 +49,7 @@ public class EnemyMovement : MonoBehaviour
             isPlaying = false;
         }
         // Animates the enemy
-        
+       
     }
+    
 }
