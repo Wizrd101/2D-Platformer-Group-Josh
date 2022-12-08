@@ -13,6 +13,7 @@ TagManager:
   - PlayerBullet
   - OutOfBounds
   - LevelEnd
+  - Healing
   layers:
   - Default
   - TransparentFX
