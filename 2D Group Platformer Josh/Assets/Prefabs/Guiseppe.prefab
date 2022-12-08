@@ -473,8 +473,8 @@ GameObject:
   - component: {fileID: 5142579962807669328}
   - component: {fileID: 5142579962807669329}
   - component: {fileID: 5142579962807669335}
-  - component: {fileID: 5142579962807669334}
   - component: {fileID: 5142579962807669333}
+  - component: {fileID: -6828657219058305571}
   m_Layer: 7
   m_Name: Guiseppe
   m_TagString: DamageTag
@@ -698,21 +698,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5142579962807669334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5142579962807669679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 122c188177222734289283a38be603af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  close: 10
-  speed: 3
 --- !u!95 &5142579962807669333
 Animator:
   serializedVersion: 4
@@ -733,6 +718,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-6828657219058305571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142579962807669679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be2d31b0bea46440ab7dcfa4b206b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  chaseSpeed: 2
+  chaseTriggerDistance: 0
+  paceDirection: {x: 1, y: 0, z: 0}
+  paceDistance: 3
 --- !u!1 &5142579963240538933
 GameObject:
   m_ObjectHideFlags: 0

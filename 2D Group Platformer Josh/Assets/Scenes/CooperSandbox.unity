@@ -748,9 +748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175466194}
   chaseSpeed: 2
-  chaseTriggerDistance: 3
+  chaseTriggerDistance: 0
   paceDirection: {x: 1, y: 0, z: 0}
-  paceDistance: 3
+  paceDistance: 5
 --- !u!1 &473947506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1386,7 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5142579962807669334, guid: 10a75f9850bd3b34080e8acac9f89021, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -3652,7 +3652,7 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1175466195}
-    - target: {fileID: 5142579962807669334, guid: 10a75f9850bd3b34080e8acac9f89021, type: 3}
+    - target: {fileID: 0}
       propertyPath: player
       value: 
       objectReference: {fileID: 1175466194}

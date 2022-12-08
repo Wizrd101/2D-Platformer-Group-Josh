@@ -34,7 +34,7 @@ public class EnemyMovement : MonoBehaviour
             GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
             if (isPlaying == false)
             {
-                GetComponent<AudioSource>().Play();
+                //GetComponent<AudioSource>().Play();
                 isPlaying = true;
             }
         }
@@ -45,7 +45,7 @@ public class EnemyMovement : MonoBehaviour
             // use vector2 for left and right, use vector3 for any direction
             GetComponent<Animator>().SetFloat("xInput", 0);
             GetComponent<Animator>().SetFloat("yInput", 0);
-            GetComponent<AudioSource>().Stop();
+            //GetComponent<AudioSource>().Stop();
             isPlaying = false;
         }
         // Animates the enemy
