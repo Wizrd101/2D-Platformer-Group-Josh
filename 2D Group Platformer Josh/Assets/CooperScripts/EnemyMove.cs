@@ -17,6 +17,10 @@ public class EnemyMove : MonoBehaviour {
 	void Start () {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
+		if (HardMode.isHard == true)
+        {
+			chaseSpeed++;
+        }
 
 	}
 	
@@ -58,10 +62,13 @@ public class EnemyMove : MonoBehaviour {
 		}
 		if(paceDirection.x > 0)
         {
-			GetComponent<SpriteRenderer>().flipX = false;
-        }else if(paceDirection.x < 0)
-        {
 			GetComponent<SpriteRenderer>().flipX = true;
-        }
+			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+		}
+		else if(paceDirection.x < 0)
+        {
+			GetComponent<SpriteRenderer>().flipX = false;
+			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+		}
 	}
 }
