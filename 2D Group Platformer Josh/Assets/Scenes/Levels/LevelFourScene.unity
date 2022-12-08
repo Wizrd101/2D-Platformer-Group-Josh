@@ -104782,6 +104782,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: b0ccf09edb0a84242bc159ba92fee406, type: 2}
+    - target: {fileID: 9116259488727795251, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
+      propertyPath: m_LinearDrag
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
 --- !u!1 &1340171039

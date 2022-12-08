@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 1005716640144165675}
   - component: {fileID: 1005716640144165674}
   - component: {fileID: 1005716640144165653}
+  - component: {fileID: -8033592612269384889}
   m_Layer: 7
   m_Name: FrankMann
   m_TagString: DamageTag
@@ -414,6 +415,24 @@ MonoBehaviour:
   speed: 200
   chaseDistance: 5
   nextWaypointDistance: 3
+--- !u!114 &-8033592612269384889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005716640144165661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be2d31b0bea46440ab7dcfa4b206b1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  chaseSpeed: 2
+  chaseTriggerDistance: 0
+  paceDirection: {x: 1, y: 0, z: 0}
+  paceDistance: 3
+  flip: 0
 --- !u!1 &1005716640371361741
 GameObject:
   m_ObjectHideFlags: 0
