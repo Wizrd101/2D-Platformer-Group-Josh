@@ -16,12 +16,13 @@ public class EnemyHealth : MonoBehaviour
     }
     void Start()
     {
-        slider.maxValue = health;
-        slider.value = health;
         if (HardMode.isHard == true)
         {
             health += 5;
         }
+        slider.maxValue = health;
+        slider.value = health;
+        
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

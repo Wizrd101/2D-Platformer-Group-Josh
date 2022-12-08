@@ -29,10 +29,10 @@ public class FreeGhosts : MonoBehaviour
         {
             ghostCount++;
             Destroy(collision.gameObject);
-            if (ghostCount >= ghostsNeeded)
-            {
-                SceneManager.LoadScene(sceneName);
-            }
+        }
+        else if (collision.gameObject.tag == "LevelEnd" && ghostCount >= ghostsNeeded)
+        {
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
