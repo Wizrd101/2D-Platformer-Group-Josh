@@ -8,9 +8,9 @@ public class Health : MonoBehaviour
 {
     public int health = 10;
     public Slider slider;
-    //public int maxHealth = 10;
+    public int maxHealth = 10;
     public TextMeshProUGUI healthText;
-    //public int healing = 4;
+    public int healing = 4;
     // name of the lose screen
     public string sceneName;
     public static bool isDead = false;
@@ -74,17 +74,18 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
-        /*else if (otherTag == "HealingPowerUp")
+        else if (otherTag == "Healing")
         {
             health += healing;
             Destroy(collision.gameObject);
-            GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
             if (health > maxHealth)
             {
                 health = maxHealth;
                 
             }
-        }*/
+            slider.value = health;
+        }
     }
 }
 
