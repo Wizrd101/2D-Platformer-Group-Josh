@@ -13,6 +13,7 @@ public class EnemyMove : MonoBehaviour {
 	private bool home = true;
 	public Vector3 paceDirection = new Vector3 (0f, 0f, 0f);
 	public float paceDistance = 3.0f;
+	public bool flip;
 	// Use this for initialization
 	void Start () {
 		//get the spawn position so we know how to get home
@@ -62,13 +63,32 @@ public class EnemyMove : MonoBehaviour {
 		}
 		if(paceDirection.x > 0)
         {
-			GetComponent<SpriteRenderer>().flipX = true;
-			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			if (flip == true)
+            {
+				GetComponent<SpriteRenderer>().flipX = false;
+				GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			}
+			else
+            {
+				GetComponent<SpriteRenderer>().flipX = true;
+				GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			}
+			
 		}
 		else if(paceDirection.x < 0)
         {
-			GetComponent<SpriteRenderer>().flipX = false;
-			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			if (flip == true)
+            {
+				GetComponent<SpriteRenderer>().flipX = true;
+				GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			}
+			else
+            {
+				GetComponent<SpriteRenderer>().flipX = false;
+				GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
+			}
 		}
+			
+		
 	}
 }
