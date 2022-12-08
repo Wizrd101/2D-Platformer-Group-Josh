@@ -28,19 +28,23 @@ public class EnemyMove : MonoBehaviour {
 		if (chaseDirection.magnitude < chaseTriggerDistance) {
 			//player gets too close to the enemy
 			home = false;
-			chaseDirection.Normalize ();
+			chaseDirection.Normalize();
 			GetComponent<Rigidbody2D> ().velocity = chaseDirection * chaseSpeed;
+			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
 		} else if (home == false) {
 			Vector2 homeDirection = new Vector2 (startPosition.x - transform.position.x,
 				                        startPosition.y - transform.position.y);
+			GetComponent<Animator>().SetFloat("xInput", chaseDirection.x);
 			if (homeDirection.magnitude < 0.3f) {
 				//we've arrived home
 				home = true;
 				GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 0);
+				
 			} else {
 				//go home
 				homeDirection.Normalize ();
 				GetComponent<Rigidbody2D> ().velocity = homeDirection * chaseSpeed;
+				
 			}
 		} else {
 			Vector3 displacement = transform.position - startPosition;
@@ -51,6 +55,7 @@ public class EnemyMove : MonoBehaviour {
 			}
 			paceDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = paceDirection * chaseSpeed;
+			
 		}
 	}
 }
