@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     // name of the lose screen
     public string sceneName;
     public static bool isDead = false;
+    float timer = 0f;
     // Start is called before the first frame update
     //public AudioClip potionDrink;
     void Start()
@@ -25,7 +26,21 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthText.text = $"Health: {health}";
+        //healthText.text = $"Health: {health}";
+        if (isDead == true)
+        {
+            timer += Time.deltaTime;
+            if (timer > 2f)
+            {
+                Debug.Log("Next Scene");
+                SceneManager.LoadScene(sceneName);
+                timer = 0;
+                isDead = false;
+            }
+        }
+        
+
+
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
@@ -46,12 +61,12 @@ public class Health : MonoBehaviour
             slider.value = health;
             if (health <= 0)
             {
-                SceneManager.LoadScene(sceneName);
                 isDead = true;
             }
         }
         else if (otherTag == "DamageTag")
         {
+            
             PlatformerMovement.knockbackCounter = PlatformerMovement.knockbackTotalTime;
             if (collision.transform.position.x <= transform.position.x)
             {
@@ -61,14 +76,16 @@ public class Health : MonoBehaviour
             {
                 PlatformerMovement.knockFromRight = false;
             }
+            GetComponent<Animator>().SetTrigger("GetHit");
             health -= 2;
             slider.value = health;
             if (health <= 0)
             {
-                SceneManager.LoadScene(sceneName);
-                isDead = true;
-
+                    isDead = true;
+                Debug.Log("Dead");
             }
+            
+            
         }
         else if (otherTag == "OutOfBounds")
         {
