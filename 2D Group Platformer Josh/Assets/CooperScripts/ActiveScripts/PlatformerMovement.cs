@@ -60,9 +60,10 @@ public class PlatformerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && grounded == true)
         {
+            animator.SetTrigger("Jump");
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             grounded = false;
-            animator.SetTrigger("Jump");
+            
         }
         if (rb.velocity.y < -0.1f && !grounded)
         {

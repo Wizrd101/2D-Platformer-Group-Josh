@@ -109,7 +109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0561cd2c3611748a470385c6c1f0f7
-      internalID: -909781574
+      spriteID: bbeead80d89a55b4599b7534862b9fd3
+      internalID: 350315579
       vertices: []
       indices: 
       edges: []
@@ -130,7 +130,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35eb724bfbc0e1c4dba0afa8630ef30a
-      internalID: 599522919
+      spriteID: 89c4c6add4f5f2f4f9c11f07cc6106fc
+      internalID: -1487627430
       vertices: []
       indices: 
       edges: []
@@ -150,8 +150,8 @@ TextureImporter:
       name: ArtoriFall_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 0
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21163d1b8fd191e4eb91d4c00d66269b
-      internalID: 962778516
+      spriteID: 4e149aef78890a540a75d0d2f60a80df
+      internalID: 1983858948
       vertices: []
       indices: 
       edges: []
@@ -171,90 +171,6 @@ TextureImporter:
       name: ArtoriFall_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f974d729858b524abd76ad1bc74ce48
-      internalID: -1906500388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriFall_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81378c232101a6d4bad1e44bf403ccf4
-      internalID: 1219609658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriFall_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fd3ea4ee5ae8da47a6eb4ff875a1c20
-      internalID: -874340695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriFall_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 137bf5b4854e6da43bab710eeee40d29
-      internalID: 1475025092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriFall_7
-      rect:
-        serializedVersion: 2
         x: 32
         y: 0
         width: 32
@@ -266,29 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a05ca7b81a428041adc07b3c46db613
-      internalID: 1479742712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriFall_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 148b8387e585f4446bc48f92b46a89b4
-      internalID: 571426182
+      spriteID: b7b459294d03e36449bc4d5b657720a5
+      internalID: 771873001
       vertices: []
       indices: 
       edges: []
@@ -304,15 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ArtoriFall_2: 962778516
-      ArtoriFall_0: -909781574
-      ArtoriFall_3: -1906500388
-      ArtoriFall_4: 1219609658
-      ArtoriFall_1: 599522919
-      ArtoriFall_8: 571426182
-      ArtoriFall_5: -874340695
-      ArtoriFall_6: 1475025092
-      ArtoriFall_7: 1479742712
+      ArtoriFall_2: 1983858948
+      ArtoriFall_0: 350315579
+      ArtoriFall_3: 771873001
+      ArtoriFall_1: -1487627430
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
