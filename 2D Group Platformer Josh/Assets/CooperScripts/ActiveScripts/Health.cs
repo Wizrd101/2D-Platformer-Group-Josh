@@ -30,6 +30,7 @@ public class Health : MonoBehaviour
         if (isDead == true)
         {
             timer += Time.deltaTime;
+            GetComponent<Animator>().SetTrigger("Death");
             if (timer > 2f)
             {
                 Debug.Log("Next Scene");
