@@ -35,53 +35,49 @@ public class PlatformerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Health.isDead == false)
+        float xInput = Input.GetAxis("Horizontal");
+
+        Vector2 velocity = rb.velocity;
+        if (knockbackCounter <= 0)
         {
+            velocity.x = xInput * moveSpeed;
+            rb.velocity = velocity;
+        }
+        else
+        {
+            if (knockFromRight == true)
+            {
+                //velocity.x = xInput * moveSpeed;
+                rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
+            }
+            if (knockFromRight == false) 
+            {
+                //velocity.x = xInput * moveSpeed;
+                rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
+            }
+            knockbackCounter -= Time.deltaTime;
+        }
 
-
-            float xInput = Input.GetAxis("Horizontal");
-
-            Vector2 velocity = rb.velocity;
-            if (knockbackCounter <= 0)
-            {
-                velocity.x = xInput * moveSpeed;
-                rb.velocity = velocity;
-            }
-            else
-            {
-                if (knockFromRight == true)
-                {
-                    //velocity.x = xInput * moveSpeed;
-                    rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
-                }
-                if (knockFromRight == false)
-                {
-                    //velocity.x = xInput * moveSpeed;
-                    rb.velocity = new Vector2(-knockbackAmount, knockbackAmount);
-                }
-                knockbackCounter -= Time.deltaTime;
-            }
-
-            if (Input.GetButtonDown("Jump") && grounded == true)
-            {
-                rb.AddForce(new Vector2(0, 100 * jumpSpeed));
-                grounded = false;
-                animator.SetTrigger("Jump");
-            }
-            if (rb.velocity.y < -0.1f && !grounded)
-            {
-                animator.SetTrigger("Fall");
-            }
-            animator.SetFloat("xInput", xInput);
-            animator.SetBool("grounded", grounded);
-            if (xInput < 0)
-            {
-                spriteRenderer.flipX = true;
-            }
-            else if (xInput > 0)
-            {
-                spriteRenderer.flipX = false;
-            }
+        if (Input.GetButtonDown("Jump") && grounded == true)
+        {
+            animator.SetTrigger("Jump");
+            rb.AddForce(new Vector2(0, 100 * jumpSpeed));
+            grounded = false;
+            
+        }
+        if (rb.velocity.y < -0.1f && !grounded)
+        {
+            animator.SetTrigger("Fall");
+        }
+        animator.SetFloat("xInput", xInput);
+        animator.SetBool("grounded", grounded);
+        if (xInput < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if(xInput > 0)
+        {
+            spriteRenderer.flipX = false;
         }
     }
         private void OnTriggerEnter2D(Collider2D collision)

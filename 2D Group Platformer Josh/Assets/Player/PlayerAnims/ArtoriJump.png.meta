@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96d3cea4d098b0b47bdccd21ea5f6508
-      internalID: 1499102765
+      spriteID: c85337a298f5705498d08067fedd5f5f
+      internalID: 812597591
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52de4d3c03e03094e9a7e7806babdc89
-      internalID: 762016017
+      spriteID: 4867a425f4459594192e58b908c8cf91
+      internalID: 1055288918
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f6e0b3375b34154da85786ddb233a87
-      internalID: -1005758727
+      spriteID: 353177d2a58ae264bb5074b12888084c
+      internalID: 773152776
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a09ef54c89d7374caa983156737be50
-      internalID: 568522787
+      spriteID: 568cf252256e28447a856891aa6bb9c3
+      internalID: 478656794
       vertices: []
       indices: 
       edges: []
@@ -203,29 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4493b65dff3eec44891c30d3c6c8ef37
-      internalID: 135273671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ArtoriJump_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 090e2846fb42aba44b76f86a871e0d7b
-      internalID: -924122925
+      spriteID: df070151581b54c418bb8af033596317
+      internalID: -152707974
       vertices: []
       indices: 
       edges: []
@@ -241,12 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ArtoriJump_3: 568522787
-      ArtoriJump_2: -1005758727
-      ArtoriJump_0: 1499102765
-      ArtoriJump_4: 135273671
-      ArtoriJump_5: -924122925
-      ArtoriJump_1: 762016017
+      ArtoriJump_3: 478656794
+      ArtoriJump_2: 773152776
+      ArtoriJump_0: 812597591
+      ArtoriJump_4: -152707974
+      ArtoriJump_1: 1055288918
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
