@@ -15,13 +15,13 @@ public class FreeGhosts : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coinText.text = $"Ghosts Freed: {ghostCount} / {ghostsNeeded}";
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        coinText.text = $"Ghosts Freed: {ghostCount} / {ghostsNeeded}";
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
