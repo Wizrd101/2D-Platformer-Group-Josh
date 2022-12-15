@@ -16,6 +16,7 @@ public class RandomPortalTeleport : MonoBehaviour
     public GameObject teleport9;
 
     public bool roomMini;
+    public int roomNumber;
 
     void OnCollisionEnter2D(Collider2D other)
     {
@@ -101,7 +102,10 @@ public class RandomPortalTeleport : MonoBehaviour
                     other.transform.position = new Vector2(teleport8.transform.position.x, teleport8.transform.position.y);
                 }
             }
-            
+            if (roomMini)
+            {
+
+            }
         }
     }
 }
