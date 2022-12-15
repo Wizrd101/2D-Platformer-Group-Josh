@@ -475,6 +475,7 @@ GameObject:
   - component: {fileID: 5142579962807669335}
   - component: {fileID: 5142579962807669333}
   - component: {fileID: -6828657219058305571}
+  - component: {fileID: -3139996938950826682}
   m_Layer: 7
   m_Name: Guiseppe
   m_TagString: DamageTag
@@ -735,6 +736,25 @@ MonoBehaviour:
   chaseTriggerDistance: 0
   paceDirection: {x: 1, y: 0, z: 0}
   paceDistance: 3
+  flip: 0
+--- !u!114 &-3139996938950826682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142579962807669679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98723e8c5cf26ba4b8451b5b1753b864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3082768599549913301, guid: d3e393805e4a16143923381e65a48cb3, type: 3}
+  bulletSpeed: 10
+  bulletLifetime: 2
+  player: {fileID: 0}
+  close: 5
+  shootDelay: 2
 --- !u!1 &5142579963240538933
 GameObject:
   m_ObjectHideFlags: 0

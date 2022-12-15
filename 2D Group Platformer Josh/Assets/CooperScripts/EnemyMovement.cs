@@ -29,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
         if (playerDist <= close)
         {
             
-            GetComponent<Rigidbody2D>().velocity = playerDirection * speed;
+            GetComponent<Rigidbody2D>().velocity = -playerDirection * speed;
             GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
             GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
             if (isPlaying == false)

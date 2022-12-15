@@ -28,6 +28,7 @@ public class EnemyShoot : MonoBehaviour
                 bulletSpawn.GetComponent<Rigidbody2D>().velocity = shootDirection * bulletSpeed;
                 Destroy(bulletSpawn, bulletLifetime);
                 timer = 0;
+                GetComponent<Animator>().SetTrigger("shoot");
             }
         }
     }
