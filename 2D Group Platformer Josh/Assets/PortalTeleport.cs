@@ -10,7 +10,6 @@ public class PortalTeleport : MonoBehaviour
         if (other.tag == "Player")
         {
             other.transform.position = new Vector2(teleportPoint.transform.position.x, teleportPoint.transform.position.y);
-            
         }
     }
 }
