@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerShoot: {fileID: 0}
+  playerShoot: {fileID: 874282089772082973}
   bullet: {fileID: 6402780565413320663, guid: acea45c4522294c4b9996997be58ccbc, type: 3}
   currentCylinder: 6
   maxMagSize: 6
@@ -139,5 +139,5 @@ MonoBehaviour:
   maxReserveSize: 90
   speed: 35
   bulletLifeTime: 1.5
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
   shootDelay: 0.25

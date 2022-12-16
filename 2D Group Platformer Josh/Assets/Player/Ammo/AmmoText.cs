@@ -23,6 +23,6 @@ public class AmmoText : MonoBehaviour
 
     public void UpdateAmmoText()
     {
-        text.text = $"{playerShoot.currentCylinder} / {playerShoot.maxMagSize} | {playerShoot.currentReserves} / {playerShoot.maxReserveSize}";
+        text.text = $"{playerShoot.currentCylinder} | {playerShoot.currentReserves} ";
     }
 }

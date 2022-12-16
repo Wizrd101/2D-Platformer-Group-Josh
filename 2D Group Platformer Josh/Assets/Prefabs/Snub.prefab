@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6282803730606297025}
   - component: {fileID: 4170207467010842354}
   - component: {fileID: -8833640717300663496}
-  - component: {fileID: -4613084195030649763}
+  - component: {fileID: 7278706264298871216}
   m_Layer: 0
   m_Name: Snub
   m_TagString: Untagged
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60f56795672b4084aac3f43b5562f4cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-4613084195030649763
+--- !u!114 &7278706264298871216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,10 +128,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8944225638669520565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6944100ea6e6e044804e090e011751d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerShootSn: {fileID: -4613084195030649763}
+  playerShoot: {fileID: 7278706264298871216}
   bullet: {fileID: 6402780565413320663, guid: acea45c4522294c4b9996997be58ccbc, type: 3}
   currentCylinder: 6
   maxMagSize: 6
@@ -139,5 +139,5 @@ MonoBehaviour:
   maxReserveSize: 90
   speed: 35
   bulletLifeTime: 1.5
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
   shootDelay: 0.25
