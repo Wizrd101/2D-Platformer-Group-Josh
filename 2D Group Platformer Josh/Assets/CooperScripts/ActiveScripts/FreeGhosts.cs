@@ -12,6 +12,7 @@ public class FreeGhosts : MonoBehaviour
     public int ghostsNeeded = 2;
     public TextMeshProUGUI coinText;
     public string sceneName;
+    static public bool isBossDead = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,7 @@ public class FreeGhosts : MonoBehaviour
             ghostCount++;
             Destroy(collision.gameObject);
         }
-        else if (collision.gameObject.tag == "LevelEnd" && ghostCount >= ghostsNeeded)
+        else if (collision.gameObject.tag == "LevelEnd" && ghostCount >= ghostsNeeded && isBossDead == true)
         {
             SceneManager.LoadScene(sceneName);
         }

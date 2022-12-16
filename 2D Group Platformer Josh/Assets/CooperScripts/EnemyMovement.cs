@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour
     public float close = 10.0f;
     public float speed = 3.0f;
     bool isPlaying = false;
+    public bool runAway = false;
     private void Start()
     {
         if (HardMode.isHard == true)
@@ -24,32 +25,46 @@ public class EnemyMovement : MonoBehaviour
         // use vector2 if it only moves left and right, use vector3 if you want it to move in any direction
         float playerDist = playerDirection.magnitude;
         playerDirection.Normalize();
-     
+
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (playerDist <= close)
         {
-            
-            GetComponent<Rigidbody2D>().velocity = playerDirection * speed;
-            GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
-            GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
-            if (isPlaying == false)
+            if (runAway == false)
             {
-                //GetComponent<AudioSource>().Play();
-                isPlaying = true;
+                GetComponent<Rigidbody2D>().velocity = playerDirection * speed;
+                GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
+                GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
+                if (isPlaying == false)
+                {
+                    //GetComponent<AudioSource>().Play();
+                    isPlaying = true;
+                }
             }
-        }
-        else
-        {
+            else if (runAway == true)
+            {
+                GetComponent<Rigidbody2D>().velocity = -playerDirection * speed;
+                GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
+                GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
+                if (isPlaying == false)
+                {
+                    //GetComponent<AudioSource>().Play();
+                    isPlaying = true;
+                }
+            }
 
-            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-            // use vector2 for left and right, use vector3 for any direction
-            GetComponent<Animator>().SetFloat("xInput", 0);
-            GetComponent<Animator>().SetFloat("yInput", 0);
-            //GetComponent<AudioSource>().Stop();
-            isPlaying = false;
+            else
+            {
+
+                GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+                // use vector2 for left and right, use vector3 for any direction
+                GetComponent<Animator>().SetFloat("xInput", 0);
+                GetComponent<Animator>().SetFloat("yInput", 0);
+                //GetComponent<AudioSource>().Stop();
+                isPlaying = false;
+            }
+            // Animates the enemy
+
         }
-        // Animates the enemy
-       
+
     }
-    
 }
