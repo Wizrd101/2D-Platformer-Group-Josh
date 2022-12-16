@@ -3274,7 +3274,7 @@ PrefabInstance:
       objectReference: {fileID: 1175466194}
     - target: {fileID: -3139996938950826682, guid: 10a75f9850bd3b34080e8acac9f89021, type: 3}
       propertyPath: shootDelay
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5142579961790362245, guid: 10a75f9850bd3b34080e8acac9f89021, type: 3}
       propertyPath: m_AnchorMax.x

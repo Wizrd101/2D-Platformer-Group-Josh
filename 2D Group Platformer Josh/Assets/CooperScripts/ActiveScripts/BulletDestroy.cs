@@ -18,6 +18,9 @@ public class BulletDestroy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(bullet);
+        if (collision.gameObject.layer != 11)
+        {
+            Destroy(gameObject);
+        }
     }
 }

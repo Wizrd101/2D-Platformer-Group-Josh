@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BossHealth : MonoBehaviour
 {
-    public int health = 10;
+    public int health = 25;
     public GameObject enemy;
     public static int damageAmount = 2;
     public Slider slider;
