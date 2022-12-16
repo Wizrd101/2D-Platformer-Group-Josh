@@ -23,6 +23,10 @@ public class FreeGhosts : MonoBehaviour
     void Update()
     {
         coinText.text = $"Ghosts Freed: {ghostCount} / {ghostsNeeded}";
+        if (ghostCount >= ghostsNeeded && isBossDead == true)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -31,9 +35,6 @@ public class FreeGhosts : MonoBehaviour
             ghostCount++;
             Destroy(collision.gameObject);
         }
-        else if (collision.gameObject.tag == "LevelEnd" && ghostCount >= ghostsNeeded && isBossDead == true)
-        {
-            SceneManager.LoadScene(sceneName);
-        }
+        
     }
 }
