@@ -548,6 +548,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &130209956 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 874282089772082973, guid: 6c0c107d2d219174c8d297ce298759a3, type: 3}
+  m_PrefabInstance: {fileID: 1745310248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &182361338
 GameObject:
   m_ObjectHideFlags: 0
@@ -39220,6 +39231,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1777502357}
     m_Modifications:
+    - target: {fileID: 874282089772082973, guid: 6c0c107d2d219174c8d297ce298759a3, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
+    - target: {fileID: 874282089772082973, guid: 6c0c107d2d219174c8d297ce298759a3, type: 3}
+      propertyPath: playerShoot
+      value: 
+      objectReference: {fileID: 130209956}
     - target: {fileID: 5046244610921703787, guid: 6c0c107d2d219174c8d297ce298759a3, type: 3}
       propertyPath: m_Name
       value: Default
