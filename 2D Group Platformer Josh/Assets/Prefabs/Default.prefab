@@ -134,7 +134,7 @@ MonoBehaviour:
   playerShoot: {fileID: 0}
   bullet: {fileID: 6402780565413320663, guid: acea45c4522294c4b9996997be58ccbc, type: 3}
   currentCylinder: 6
-  maxMagSize: 20
+  maxMagSize: 6
   currentReserves: 30
   maxReserveSize: 90
   speed: 35
