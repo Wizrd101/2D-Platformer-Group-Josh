@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ee3cbf0fd6e8843bc1cbe39894c4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   enemy: {fileID: 8160749151137205387}
   slider: {fileID: 8160749151697165443}
 --- !u!50 &8160749151137205390
@@ -166,7 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   close: 10
-  speed: 3
+  speed: 4
+  runAway: 0
 --- !u!95 &8160749151137205388
 Animator:
   serializedVersion: 4
