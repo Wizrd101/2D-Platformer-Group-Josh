@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3082768599549913300}
   - component: {fileID: -7209587116678039471}
   - component: {fileID: -167296459007959388}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: GuisseppeBullet
   m_TagString: DamageTag
   m_Icon: {fileID: 0}
