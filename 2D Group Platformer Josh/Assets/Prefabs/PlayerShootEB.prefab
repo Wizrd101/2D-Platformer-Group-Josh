@@ -139,5 +139,5 @@ MonoBehaviour:
   maxReserveSize: 90
   speed: 50
   bulletLifeTime: 10
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
   shootDelay: 0.25

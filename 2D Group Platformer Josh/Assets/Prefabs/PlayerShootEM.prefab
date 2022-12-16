@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5377145215501705612}
   - component: {fileID: 4923862242329744460}
   - component: {fileID: 1079305111868502983}
-  - component: {fileID: 1874608225524498680}
+  - component: {fileID: 3060610282875019522}
   m_Layer: 0
   m_Name: PlayerShootEM
   m_TagString: Untagged
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1313783821, guid: c5981b5728aef85458209d9bd2b14ccd, type: 3}
+  m_Sprite: {fileID: -1322050809, guid: 2ffb55381e7b18c46b2fa1990faa50e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60f56795672b4084aac3f43b5562f4cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1874608225524498680
+--- !u!114 &3060610282875019522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,16 +128,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8619498910533171426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02e3a79044558f149a3734e24637ad98, type: 3}
+  m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerShootEM: {fileID: 1874608225524498680}
-  bullet: {fileID: 6402780565413320663, guid: acea45c4522294c4b9996997be58ccbc, type: 3}
+  playerShoot: {fileID: 0}
+  bullet: {fileID: 0}
   currentCylinder: 20
   maxMagSize: 20
   currentReserves: 40
-  maxReserveSize: 120
+  maxReserveSize: 100
   speed: 35
   bulletLifeTime: 1.5
-  shootSound: {fileID: 0}
-  shootDelay: 0.25
+  shootSound: {fileID: 8300000, guid: 3aa9afba5fd4bbf4da71b7e67692cab6, type: 3}
+  shootDelay: 0.5
