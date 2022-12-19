@@ -15,6 +15,7 @@ TagManager:
   - LevelEnd
   - Healing
   - EnemyBullet
+  - AmmoPickUp
   layers:
   - Default
   - TransparentFX

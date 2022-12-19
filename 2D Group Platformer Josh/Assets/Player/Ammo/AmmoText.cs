@@ -23,6 +23,6 @@ public class AmmoText : MonoBehaviour
 
     public void UpdateAmmoText()
     {
-        text.text = $"{playerShoot.currentCylinder} | {playerShoot.currentReserves} ";
+        text.text = $"Ammo: {playerShoot.currentCylinder} | {playerShoot.currentReserves} ";
     }
 }
