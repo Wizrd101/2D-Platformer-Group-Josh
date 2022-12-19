@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92abfe1db908f1542a9fcd2b4f6ed2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   enemy: {fileID: 5347821022948047081}
   slider: {fileID: 0}
 --- !u!114 &5347821022948047086

@@ -84,4 +84,8 @@ public class LevelMenu : MonoBehaviour
         Debug.Log("Game Closed");
 
     }
+    public void DifficultySelect()
+    {
+        SceneManager.LoadScene("HardMode");
+    }
 }

@@ -39695,6 +39695,7 @@ MonoBehaviour:
   ghostsNeeded: 2
   coinText: {fileID: 2127003660}
   sceneName: LevelTwoScene
+  currentScene: LevelOneScene
 --- !u!4 &1777502357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9116259488727795244, guid: 46dd3849b70b98149bf27bcd3e5498e8, type: 3}
