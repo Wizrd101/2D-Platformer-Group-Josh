@@ -17,7 +17,7 @@ public class FreeGhosts : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        isBossDead = false;
     }
 
     // Update is called once per frame

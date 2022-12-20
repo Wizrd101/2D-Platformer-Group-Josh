@@ -118,6 +118,10 @@ public class PlatformerMovement : MonoBehaviour
                 startingPieces -= piecesNeeded;
             }
         }
+        if (collision.gameObject.tag == "AmmoPickUp")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
 

@@ -11,7 +11,7 @@ public class AmmoPickUp : MonoBehaviour
         {
             playerShoot.AddRounds(playerShoot.maxReserveSize);
             Destroy(gameObject);
-            playerShoot.maxReserveSize += 20;
+            playerShoot.maxReserveSize += 10;
         }
     }
 } 
