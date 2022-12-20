@@ -63933,8 +63933,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633831200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.3, y: 0, z: 0}
+  m_LocalScale: {x: 0.822961, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1946469563}
@@ -103759,8 +103759,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526090379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.09, y: 0, z: 0}
+  m_LocalScale: {x: 0.80478513, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1946469563}
@@ -106996,6 +106996,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1596962233}
+    - target: {fileID: 5347821022948047073, guid: e3a0b790b2b44df469dfd33cdec8a6a6, type: 3}
+      propertyPath: shootDelay
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 5347821022948047075, guid: e3a0b790b2b44df469dfd33cdec8a6a6, type: 3}
       propertyPath: m_RootOrder
       value: 3
